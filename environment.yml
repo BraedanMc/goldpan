@@ -1,0 +1,18 @@
+# GOLDPAN runtime — the `laya` conda env.
+# Recreate with:  conda env create -f environment.yml
+# (Env provisioning via conda/conda-forge per project convention — not uv/pyenv.)
+name: laya
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - opencv
+  - matplotlib
+  - tifffile
+  - pip
+  - pip:
+      - -e .[dev]

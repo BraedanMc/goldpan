@@ -1,0 +1,29 @@
+# Generated review artifacts — code is tracked, outputs are not
+review/**
+!review/.gitkeep
+
+# Caches / intermediates
+**/__pycache__/
+*.pyc
+.cache/
+*.npy
+hf_cache/
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Dev tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Env
+.env
+.venv/
+
+# OS
+.DS_Store
