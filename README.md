@@ -6,7 +6,8 @@
 A reusable, documented, human-gated workflow for detecting and quantifying
 pigment cells in zebrafish imaging data — melanophores (easy), xanthophores
 (medium), and iridophores (hard) — built from preprocessing and
-channel-comparison components proven on this project.
+channel-comparison components proven on this project. Also a testbed for ML and
+agent-swarm experience.
 
 ## How the project is navigated
 
